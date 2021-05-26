@@ -94,7 +94,7 @@ Classic game sounds in Plugin form, as heard in late 80s / early 90s sound cards
 # KlangFalter
 
 %package KlangFalter
-Summary:	KlangFalter is a convolution audio plugin       
+Summary:	KlangFalter is a convolution audio plugin
 
 %description KlangFalter
 KlangFalter is a convolution audio plugin
@@ -201,7 +201,7 @@ drumsynth VST plugin
 %autosetup -p1 -n DISTRHO-Ports-%{github_release}
 
 %build
-%meson -Dbuild-lv2=false -Dbuild-vst2=false -Dbuild-vst3=true
+%meson -Dbuild-lv2=false -Dbuild-vst2=true -Dbuild-vst3=true
 %meson_build
 
 %install
@@ -215,8 +215,8 @@ drumsynth VST plugin
 %files vitalium
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/vitalium.lv2/*
-%{_libdir}/lv2/Vitalium-unfa.lv2/*
+%{_libdir}/vst3/vitalium.vst3/*
+%{_libdir}/vst3/Vitalium-unfa.lv2/*
 
 %files TAL
 %doc README.md
@@ -247,7 +247,7 @@ drumsynth VST plugin
 %files JuceOPL
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/JuceOPL.lv2/*     
+%{_libdir}/lv2/JuceOPL.lv2/*
 
 %files KlangFalter
 %doc README.md
@@ -292,12 +292,12 @@ drumsynth VST plugin
 %files StereoSourceSeparation
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/StereoSourceSeparation.lv2/*  
+%{_libdir}/lv2/StereoSourceSeparation.lv2/*
 
 %files SwankyAmp
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/SwankyAmp.lv2/*
+%{_libdir}/vst3/SwankyAmp.vst3/*
 
 %files Temper 
 %doc README.md
