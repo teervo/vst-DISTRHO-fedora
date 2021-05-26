@@ -1,8 +1,8 @@
 # There is no .debuginfo for these packages
 %global debug_package %{nil}
 
-%global github_release 2021-03-15
-%global rel_tag 2021_03_15
+%global github_release 2021-05-26
+%global rel_tag 2021_05-26
 
 Name:       vst-DISTRHO
 Version:    0
