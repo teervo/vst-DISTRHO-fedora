@@ -142,17 +142,16 @@ Summary:	Vex is a 3 oscillator subtractive waverom synth
 Vex is a 3 oscillator subtractive waverom synth
 
 # Temper
-
-%package Temper 
+%package Temper
 Summary:	Temper is a modern digital distortion plugin
 
-%description Temper 
-Temper is a modern digital distortion plugin featuring a rich saturation stage and a unique phase distortion. 
-Use the variable saturation curve to add warmth and edge to your sound, and let the phase distortion bring character and clarity through your mix. 
+%description Temper
+Temper is a modern digital distortion plugin featuring a rich saturation stage and a unique phase distortion.
+Use the variable saturation curve to add warmth and edge to your sound, and let the phase distortion bring character and clarity through your mix.
 Temper also features a simple resonant lowpass filter and a feedback path to drive the intensity of the tone.
 
-# SwankyAmp
 
+# SwankyAmp
 %package SwankyAmp
 Summary:	Swanky Amp is a tube amplifier emulation plug-in
 
@@ -161,7 +160,6 @@ Swanky Amp is a tube amplifier emulation plug-in which is based on detailed simu
 Discover new tones effortlessly with intuitive controls, harnessing the coveted sounds of dynamic tube amplification.
 
 # PitchedDelay
-
 %package PitchedDelay
 Summary:	PitchedDelay is a delay that allows the pitching the delayed signal
 
@@ -206,6 +204,12 @@ drumsynth VST plugin
 
 %install
 %meson_install
+
+# Remove LV2 and duplicate VS2 plugins
+rm -rf ${buildroot}%{_libdir}/lv2
+rm -rf ${buildroot}%{_libdir}/vst/SwankyAmp.so
+rm -rf ${buildroot}%{_libdir}/vst/vitalium.so
+
 
 %files dexed
 %doc README.md
