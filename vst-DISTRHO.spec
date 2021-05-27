@@ -206,9 +206,9 @@ drumsynth VST plugin
 %meson_install
 
 # Remove LV2 and duplicate VS2 plugins
-rm -rf ${buildroot}%{_libdir}/lv2
-rm -rf ${buildroot}%{_libdir}/vst/SwankyAmp.so
-rm -rf ${buildroot}%{_libdir}/vst/vitalium.so
+rm -rf %{buildroot}%{_libdir}/lv2
+rm -rf %{buildroot}%{_libdir}/vst/SwankyAmp.so
+rm -rf %{buildroot}%{_libdir}/vst/vitalium.so
 
 
 %files dexed
