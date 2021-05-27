@@ -210,109 +210,107 @@ drumsynth VST plugin
 %files dexed
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/Dexed.lv2/*
+%{_libdir}/vst/Dexed.so
 
 %files vitalium
 %doc README.md
 %license doc/GPL.txt
 %{_libdir}/vst3/vitalium.vst3/*
-%{_libdir}/vst3/Vitalium-unfa.lv2/*
 
 %files TAL
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/TAL-*.lv2/*
+%{_libdir}/vst/TAL-*.so
 
 %files dRowAudio
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/drowaudio-*.lv2/*
+%{_libdir}/vst/drowaudio-*.so
 
 %files Arctican
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/The*.lv2/*
+%{_libdir}/vst/The*.so
 
 %files LUFS
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/LUFSMeter.lv2/*
-%{_libdir}/lv2/LUFSMeterMulti.lv2/*
+%{_libdir}/vst/LUFSMeter*.so
 
 %files EasySSP
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/EasySSP.lv2/*
+%{_libdir}/vst/EasySSP.so
 
 %files JuceOPL
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/JuceOPL.lv2/*
+%{_libdir}/vst/JuceOPL.so
 
 %files KlangFalter
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/KlangFalter.lv2/*
+%{_libdir}/vst/KlangFalter.so
 
 %files Luftikus
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/Luftikus.lv2/*
+%{_libdir}/vst/Luftikus.so
 
 %files drumsynth
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/drumsynth.lv2/*
+%{_libdir}/vst/drumsynth.so
 
 %files eqinox
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/eqinox.lv2/*
+%{_libdir}/vst/eqinox.so
 
 %files HiReSam
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/HiReSam.lv2/*
+%{_libdir}/vst/HiReSam.so
 
 %files Obxd
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/Obxd.lv2/*
+%{_libdir}/vst/Obxd.so
 
 %files PitchedDelay
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/PitchedDelay.lv2/*
+%{_libdir}/vst/PitchedDelay.so
 
 %files ReFine
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/ReFine.lv2/*
+%{_libdir}/vst/ReFine.so
 
 %files StereoSourceSeparation
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/StereoSourceSeparation.lv2/*
+%{_libdir}/vst/StereoSourceSeparation.so
 
 %files SwankyAmp
 %doc README.md
 %license doc/GPL.txt
 %{_libdir}/vst3/SwankyAmp.vst3/*
 
-%files Temper 
+%files Temper
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/Temper.lv2/*
+%{_libdir}/vst/Temper.so
 
 %files Vex
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/vex.lv2/*
+%{_libdir}/vst/vex.so
 
 %files Wolpertinger
 %doc README.md
 %license doc/GPL.txt
-%{_libdir}/lv2/Wolpertinger.lv2/*
+%{_libdir}/vst/Wolpertinger.so
 
 %changelog
 * Tue Apr 27 2021 Tim Lauridsen <tla@rasmil.dk> 0-0.2.2021_03_15
