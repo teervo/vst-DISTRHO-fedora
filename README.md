@@ -2,7 +2,7 @@
 
 https://github.com/DISTRHO/DISTRHO-Ports
 
-Based on timlau's lv2 spec files (https://github.com/timlau/spec_files/tree/master/DISTRHO-Ports)
+Based on [timlau's lv2 spec files](https://github.com/timlau/spec_files/tree/master/DISTRHO-Ports)
 
 This repo is used to generate the Copr repo [teervo/DISTRHO](https://copr.fedorainfracloud.org/coprs/teervo/DISTRHO/).
 
